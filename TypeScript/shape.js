@@ -39,12 +39,12 @@ var Cone = /** @class */ (function () {
     };
     return Cone;
 }());
-var objRect = new Rectangle(2, 3);
+var objRect = new Rectangle(4, 3);
 objRect.printname();
 console.log(objRect.area());
-var objSph = new Sphere(2);
+var objSph = new Sphere(4);
 objSph.printname();
 console.log(objSph.area());
-var objCone = new Cone(2, 4);
+var objCone = new Cone(5, 10);
 objCone.printname();
 console.log(objCone.area());
